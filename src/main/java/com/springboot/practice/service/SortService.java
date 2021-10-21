@@ -9,7 +9,8 @@ import java.util.List;
 @Service
 public class SortService {
 
-    private Sort<String> sort;
+    private final Sort<String> sort;
+
 
     public SortService(@Qualifier("bubbleSort") Sort<String> sort) {
         this.sort = sort;
