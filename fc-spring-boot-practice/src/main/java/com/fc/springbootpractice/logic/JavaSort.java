@@ -1,4 +1,4 @@
-package com.springboot.practice.logic;
+package com.fc.springbootpractice.logic;
 
 import org.springframework.stereotype.Component;
 

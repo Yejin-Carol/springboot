@@ -1,7 +1,6 @@
-package com.springboot.practice.controller;
+package com.fc.springbootpractice.controller;
 
-import com.springboot.practice.service.SortService;
-import org.springframework.stereotype.Controller;
+import com.fc.springbootpractice.service.SortService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
